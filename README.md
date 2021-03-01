@@ -1,5 +1,5 @@
 ## Hi, I am Jeff, aka @x0mg
-Computer Science Student @[Arizon State University](https://www.asu.edu/)
+Computer Science Student @[Arizona State University](https://www.asu.edu/)
 ### Interests:
 - Data Science
 - Cyber Security (Web Penetrating, Reversing, Malware Analysis)
