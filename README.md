@@ -1,4 +1,4 @@
 ## Hi, I am Jeff, aka @x0mg
-## Interests:
+### Interests:
 - Data Science
-- Cyber Security(Web Penterating, Reversing, Malware Analysis)
+- Cyber Security(Web Penetrating, Reversing, Malware Analysis)
