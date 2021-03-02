@@ -4,6 +4,7 @@ Computer Science Student @[Arizona State University](https://www.asu.edu/)
 - Data Science
 - Cyber Security (Web Penetrating, Reversing, Malware Analysis)
 ### Internship
+- Former Backend Development Intern@[Goodideas-Studio](http://goodideas-studio.com/) (2020-2021)
 - Former Researcher @[Neural Computation Laboratory](https://nckunclab.wixsite.com/neuralcomputationlab) (2017-2019)
 - Former R&D Intern @[Microprogram](https://www.program.com.tw/) (2019)
 - Former R&D Intern @[ITRI](https://www.itri.org.tw/) (2018)
