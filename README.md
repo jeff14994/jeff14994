@@ -1,4 +1,5 @@
 ## Hi, I am Jeff, aka @x0mg
+![GitHub followers](https://img.shields.io/github/followers/jeff14994?style=social)
 Computer Science Student @[Arizona State University](https://www.asu.edu/)
 ### Interests:
 - Data Science
