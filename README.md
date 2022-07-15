@@ -1,4 +1,4 @@
-## Hi, I am Jeff, aka @x0mg
+## Hi, I am Jeff, aka `@x0mg` or `atx0mg`
 Computer Science Student @[Arizona State University](https://www.asu.edu/)
 
 ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jeff14994&theme=monokai)
