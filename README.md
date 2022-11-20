@@ -5,7 +5,7 @@ Computer Science Student @[Arizona State University](https://www.asu.edu/)
 ### Interests
 - Data Science
 - Cyber Security (Web Penetrating, Reversing, Malware Analysis)
-	- [blog](http://blog.atx0mg.tw/)
+	- [My blog](http://blog.atx0mg.tw/)
 ### Internship
 - Former Backend Development Intern @[Goodideas-Studio](http://goodideas-studio.com/) (2020-2021)
 - Former Researcher @[Neural Computation Laboratory](https://nckunclab.wixsite.com/neuralcomputationlab) (2017-2019)
