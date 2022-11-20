@@ -1,12 +1,11 @@
 ## Hi, I am Jeff, aka `@x0mg` or `atx0mg`
 Computer Science Student @[Arizona State University](https://www.asu.edu/)
 
-[My Blog](http://blog.atx0mg.tw/) 
-
 ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jeff14994&theme=monokai)
 ### Interests
 - Data Science
 - Cyber Security (Web Penetrating, Reversing, Malware Analysis)
+	- [blog](http://blog.atx0mg.tw/)
 ### Internship
 - Former Backend Development Intern @[Goodideas-Studio](http://goodideas-studio.com/) (2020-2021)
 - Former Researcher @[Neural Computation Laboratory](https://nckunclab.wixsite.com/neuralcomputationlab) (2017-2019)
