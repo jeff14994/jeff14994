@@ -11,8 +11,8 @@ Computer Science Student @[Arizona State University](https://www.asu.edu/)
 - Former Researcher @[Neural Computation Laboratory](https://nckunclab.wixsite.com/neuralcomputationlab) (2017-2019)
 - Former R&D Intern @[Microprogram](https://www.program.com.tw/) (2019)
 - Former SWE Intern @[ITRI](https://www.itri.org.tw/) (2018)
-### Articles
-- [SITCON 2021 - 開放式議程 - 好想學資安，該如何入門？](https://sitcon.org/2021/agenda/20605b7c-80a4-4078-b411-102fa1d6c333)
+### Speech/Published Articles
+- [SITCON 2021 Speech - 開放式議程 - 好想學資安，該如何入門？](https://sitcon.org/2021/agenda/20605b7c-80a4-4078-b411-102fa1d6c333)
 - [Reversing WannaCry Virus - 12th 鐵人賽](https://ithelp.ithome.com.tw/articles/10253139)
 - [Presentation about Security](https://www2.slideshare.net/JeffHung13/presentations)
 
