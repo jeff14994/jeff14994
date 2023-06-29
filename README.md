@@ -2,11 +2,11 @@
 Computer Science Student @[Arizona State University](https://www.asu.edu/)
 
 ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jeff14994&theme=monokai)
+<img src="https://tryhackme-badges.s3.amazonaws.com/OMGGG.png" alt="TryHackMe">
 ### Interests
 - Data Science
 - Cyber Security (Web Penetrating, Reversing, Malware Analysis)
 	- [My blog](http://blog.atx0mg.tw/)
-	- <script src="https://tryhackme.com/badge/62227"></script>
 ### Internship
 - Former Backend Development Intern @[Goodideas-Studio](http://goodideas-studio.com/) (2020-2021)
 - Former Researcher @[Neural Computation Laboratory](https://nckunclab.wixsite.com/neuralcomputationlab) (2017-2019)
