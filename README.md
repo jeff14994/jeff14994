@@ -5,6 +5,7 @@ Computer Science Student @[Arizona State University](https://www.asu.edu/)
 
 ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jeff14994&theme=monokai)
 <img src="https://tryhackme-badges.s3.amazonaws.com/OMGGG.png" alt="TryHackMe">
+<img src="http://www.hackthebox.eu/badge/image/93661" alt="Hack The Box">
 ### Interests
 - Data Science
 - Cyber Security (Web Penetrating, Reversing, Malware Analysis)
