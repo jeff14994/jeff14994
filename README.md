@@ -1,5 +1,6 @@
 ## Hi, I am Jeff, aka `@x0mg` or `atx0mg`
-Computer Science Student @[Arizona State University](https://www.asu.edu/)
+
+Graduated Computer Science Student @[Arizona State University](https://www.asu.edu/)
 
 [An overview of my prior projects](https://jeff14994.github.io/projects/) 
 
@@ -10,7 +11,13 @@ Computer Science Student @[Arizona State University](https://www.asu.edu/)
 - Data Science
 - Cyber Security (Web Penetrating, Reversing, Malware Analysis)
 	- [My blog](http://blog.atx0mg.tw/)
-### Internship
+### Open Source Contributions
+- [Intel-Retail](https://github.com/intel-retail/core-services/pull/24)
+- [ForAllSecure](https://github.com/mayhemheroes/libriscv/pull/4)
+
+### Industrial Experience
+- Former ERP/IT Engineer (2024-2024)
+- Former SWE @[Shoptaki](https://smartchainai.org/) (2023-2024)
 - Fromer 5G Research Assistant @[ASU SEFCOM](https://sefcom.asu.edu/) (2022-2023)
 - Former Backend Development Intern @[Goodideas-Studio](http://goodideas-studio.com/) (2020-2021)
 - Former Researcher @[Neural Computation Laboratory](https://nckunclab.wixsite.com/neuralcomputationlab) (2017-2019)
