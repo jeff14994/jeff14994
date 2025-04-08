@@ -16,7 +16,7 @@ Graduated Computer Science Student @[Arizona State University](https://www.asu.e
 - [ForAllSecure](https://github.com/mayhemheroes/libriscv/pull/4)
 
 ### Industrial Experience
-- Former ERP/IT Engineer (2024-2024)
+- Former ERP/IT Engineer @[ProperSys](https://www.propersyscorp.com/) (2024-2024)
 - Former SWE @[Shoptaki](https://smartchainai.org/) (2023-2024)
 - Fromer 5G Research Assistant @[ASU SEFCOM](https://sefcom.asu.edu/) (2022-2023)
 - Former Backend Development Intern @[Goodideas-Studio](http://goodideas-studio.com/) (2020-2021)
