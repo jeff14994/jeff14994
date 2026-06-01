@@ -123,5 +123,16 @@ window.TIMELINE = [
       { label: "Arizona State University", url: "https://www.asu.edu/" },
       { label: "Project overview", url: "https://jeff14994.github.io/projects/" }
     ]
+  },
+  {
+    start: 2025, end: 9999,
+    date: "2025 – Present",
+    category: "engineering",
+    title: "Data Engineer",
+    org: "Trend Micro (now TrendAI)",
+    body: "Building data pipelines and infrastructure at Trend Micro — recently rebranded as TrendAI — bringing together data engineering and a security background.",
+    sources: [
+      { label: "Trend Micro", url: "https://www.trendmicro.com/" }
+    ]
   }
 ];
