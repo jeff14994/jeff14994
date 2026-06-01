@@ -34,7 +34,39 @@
   --font-serif: Georgia, "Times New Roman", serif;
   --font-sans: Arial, "Helvetica Neue", Helvetica, sans-serif;
 
+  --glow: #f6efe6; /* hero background glow */
+  --shadow: 20, 20, 19; /* rgb for card shadows */
+
   --line-x: 24px; /* mobile timeline rail position */
+}
+
+/* ---------------- Dark theme ----------------
+   Applied when <html data-theme="dark">. A no-FOUC script in <head>
+   sets this from localStorage or the OS preference before first paint. */
+[data-theme="dark"] {
+  --canvas: #1a1714;
+  --surface: #221e19;
+  --surface-2: #272320;
+
+  --ink: #ece7de;
+  --ink-soft: #cabfb0;
+  --muted: #9a8f80;
+
+  --accent: #e08a6a;
+  --accent-deep: #eca585; /* lighter so links/code read on dark */
+
+  --border: #3a352e;
+  --border-soft: #2d2823;
+
+  --cat-education: #7da6c4;
+  --cat-research: #a394d4;
+  --cat-engineering: #e0895f;
+  --cat-internship: #8fc09a;
+  --cat-opensource: #d4ab5e;
+  --cat-speaking: #d683a4;
+
+  --glow: #2a231c;
+  --shadow: 0, 0, 0;
 }
 
 * { box-sizing: border-box; }
@@ -44,13 +76,14 @@ html { scroll-behavior: smooth; }
 body {
   margin: 0;
   background:
-    radial-gradient(900px 500px at 80% -10%, #f6efe6 0%, transparent 60%),
+    radial-gradient(900px 500px at 80% -10%, var(--glow) 0%, transparent 60%),
     var(--canvas);
   color: var(--ink);
   font-family: var(--font-serif);
   font-size: 17px;
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .wrap { width: min(1080px, 92vw); margin-inline: auto; }
@@ -91,9 +124,32 @@ a:hover { color: var(--accent); }
   color: var(--ink);
 }
 .brand-accent { color: var(--accent); }
-.nav { display: flex; gap: 1.25rem; font-family: var(--font-sans); font-size: 0.92rem; }
+.nav { display: flex; align-items: center; gap: 1.25rem; font-family: var(--font-sans); font-size: 0.92rem; }
 .nav a { text-decoration: none; color: var(--ink-soft); }
 .nav a:hover { color: var(--accent); }
+
+/* Theme toggle */
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  padding: 0;
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  background: var(--surface-2);
+  color: var(--ink-soft);
+  cursor: pointer;
+  transition: border-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+.theme-toggle:hover { border-color: var(--accent); color: var(--accent); transform: translateY(-1px); }
+.theme-toggle svg { width: 18px; height: 18px; display: block; }
+/* show the right icon per theme */
+.theme-toggle .icon-moon { display: none; }
+.theme-toggle .icon-sun { display: block; }
+[data-theme="dark"] .theme-toggle .icon-moon { display: block; }
+[data-theme="dark"] .theme-toggle .icon-sun { display: none; }
 
 /* ---------------- Hero ---------------- */
 .hero { padding: clamp(3rem, 9vw, 6.5rem) 0 clamp(2rem, 5vw, 3.5rem); }
@@ -225,12 +281,12 @@ a:hover { color: var(--accent); }
   border-left: 4px solid var(--cat, var(--accent));
   border-radius: 14px;
   padding: 1.25rem 1.4rem;
-  box-shadow: 0 1px 0 rgba(20, 20, 19, 0.02), 0 12px 28px -22px rgba(20, 20, 19, 0.5);
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  box-shadow: 0 1px 0 rgba(var(--shadow), 0.02), 0 12px 28px -22px rgba(var(--shadow), 0.5);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, background-color 0.3s ease, border-color 0.3s ease;
 }
 .card:hover {
   transform: translateY(-3px);
-  box-shadow: 0 18px 38px -24px rgba(20, 20, 19, 0.55);
+  box-shadow: 0 18px 38px -24px rgba(var(--shadow), 0.6);
 }
 
 .card-top {
