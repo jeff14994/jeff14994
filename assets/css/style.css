@@ -125,8 +125,16 @@ a:hover { color: var(--accent); }
 }
 .brand-accent { color: var(--accent); }
 .nav { display: flex; align-items: center; gap: 1.25rem; font-family: var(--font-sans); font-size: 0.92rem; }
-.nav a { text-decoration: none; color: var(--ink-soft); }
+.nav a { text-decoration: none; color: var(--ink-soft); white-space: nowrap; }
 .nav a:hover { color: var(--accent); }
+
+/* On small screens the text links would push the theme toggle off-screen,
+   so collapse them (they're still available in the footer). */
+@media (max-width: 560px) {
+  .header-inner { gap: 0.75rem; }
+  .nav { gap: 0.85rem; }
+  .nav a { display: none; }
+}
 
 /* Theme toggle */
 .theme-toggle {
@@ -135,6 +143,7 @@ a:hover { color: var(--accent); }
   justify-content: center;
   width: 38px;
   height: 38px;
+  flex-shrink: 0;
   padding: 0;
   border: 1px solid var(--border);
   border-radius: 50%;
@@ -220,6 +229,36 @@ a:hover { color: var(--accent); }
 .order-toggle .dot {
   width: 8px; height: 8px; border-radius: 50%;
   background: var(--accent);
+}
+
+/* ---------------- Filter chips ---------------- */
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin-bottom: 2.4rem;
+}
+.filter-chip {
+  font-family: var(--font-sans);
+  font-size: 0.84rem;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0.4rem 0.95rem;
+  color: var(--ink-soft);
+  cursor: pointer;
+  transition: border-color 0.2s ease, color 0.2s ease, background-color 0.2s ease, transform 0.2s ease;
+}
+.filter-chip:hover {
+  transform: translateY(-1px);
+  border-color: var(--cat, var(--accent));
+  color: var(--cat, var(--accent-deep));
+}
+.filter-chip.is-active {
+  color: var(--cat, var(--accent-deep));
+  border-color: var(--cat, var(--accent));
+  background: color-mix(in srgb, var(--cat, var(--accent)) 14%, var(--surface-2));
+  font-weight: 700;
 }
 
 /* ---------------- Timeline list ---------------- */
