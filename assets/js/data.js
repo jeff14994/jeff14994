@@ -113,18 +113,6 @@ window.TIMELINE = [
     ]
   },
   {
-    start: 2024, end: 2024,
-    date: "2024",
-    category: "education",
-    title: "B.S. Computer Science",
-    org: "Arizona State University",
-    body: "Graduated Computer Science from ASU — capping years of research, internships, and security work.",
-    sources: [
-      { label: "Arizona State University", url: "https://www.asu.edu/" },
-      { label: "Project overview", url: "https://jeff14994.github.io/projects/" }
-    ]
-  },
-  {
     start: 2025, end: 9999,
     date: "2025 – Present",
     category: "engineering",
@@ -136,12 +124,12 @@ window.TIMELINE = [
     ]
   },
   {
-    start: 2025, end: 9999,
-    date: "2025 – Present",
+    start: 2021, end: 2023,
+    date: "2021 – 2023",
     category: "education",
     title: "M.C.S. — Master of Computer Science",
     org: "Arizona State University",
-    body: "Pursuing a Master of Computer Science at ASU, deepening foundations in systems, data, and security.",
+    body: "Master of Computer Science at ASU, deepening foundations in systems, data, and security.",
     sources: [
       { label: "ASU MCS", url: "https://degrees.apps.asu.edu/masters-phd/major/ASU00/CSCSMCS/computer-science" }
     ]
