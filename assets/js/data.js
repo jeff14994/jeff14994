@@ -134,5 +134,16 @@ window.TIMELINE = [
     sources: [
       { label: "Trend Micro", url: "https://www.trendmicro.com/" }
     ]
+  },
+  {
+    start: 2025, end: 9999,
+    date: "2025 – Present",
+    category: "education",
+    title: "M.C.S. — Master of Computer Science",
+    org: "Arizona State University",
+    body: "Pursuing a Master of Computer Science at ASU, deepening foundations in systems, data, and security.",
+    sources: [
+      { label: "ASU MCS", url: "https://degrees.apps.asu.edu/masters-phd/major/ASU00/CSCSMCS/computer-science" }
+    ]
   }
 ];
