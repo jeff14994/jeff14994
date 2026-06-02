@@ -420,6 +420,72 @@ a:hover { color: var(--accent); }
 .footer-links { display: flex; gap: 1.1rem; font-family: var(--font-sans); font-size: 0.88rem; }
 .footer-links a { text-decoration: none; }
 
+/* ---------------- About page ---------------- */
+.about { padding: clamp(2rem, 6vw, 4rem) 0 5rem; }
+.about-intro { max-width: 70ch; margin-bottom: 3rem; }
+.about-intro p { font-size: clamp(1.05rem, 2.4vw, 1.25rem); color: var(--ink-soft); margin: 0 0 1rem; }
+
+.about-section { margin-bottom: 3rem; }
+.about-section > h2 {
+  font-size: clamp(1.4rem, 3.5vw, 1.9rem);
+  letter-spacing: -0.01em;
+  margin: 0 0 0.35rem;
+}
+.about-section > .section-rule {
+  height: 3px;
+  width: 52px;
+  background: var(--accent);
+  border-radius: 2px;
+  margin-bottom: 1.4rem;
+}
+
+/* simple bullet list (interests, experience) */
+.about-list { list-style: none; margin: 0; padding: 0; }
+.about-list > li {
+  position: relative;
+  padding-left: 1.4rem;
+  margin-bottom: 0.8rem;
+  color: var(--ink-soft);
+}
+.about-list > li::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 0.62em;
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+.about-list .sub { display: block; padding-left: 0; margin-top: 0.4rem; }
+.about-list .sub li { font-size: 0.96rem; }
+.about-list strong { color: var(--ink); font-weight: 700; }
+.about-list .meta { color: var(--muted); font-style: italic; }
+
+/* year-grouped résumé rows (community, certs, awards) */
+.year-group {
+  display: grid;
+  grid-template-columns: 70px 1fr;
+  gap: 0.5rem 1.2rem;
+  padding: 0.9rem 0;
+  border-top: 1px solid var(--border-soft);
+}
+.year-group:last-child { border-bottom: 1px solid var(--border-soft); }
+.year-group .year {
+  font-family: var(--font-sans);
+  font-weight: 700;
+  color: var(--accent-deep);
+  font-size: 0.95rem;
+  padding-top: 0.1rem;
+}
+.year-group ul { list-style: none; margin: 0; padding: 0; }
+.year-group li { margin-bottom: 0.5rem; color: var(--ink-soft); }
+.year-group li:last-child { margin-bottom: 0; }
+.year-group .note { display: block; font-size: 0.86rem; color: var(--muted); font-style: italic; margin-top: 0.15rem; }
+
+@media (max-width: 520px) {
+  .year-group { grid-template-columns: 1fr; gap: 0.3rem; }
+  .year-group .year { padding-top: 0; }
+}
+
 /* ---------------- Reduced motion ---------------- */
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
