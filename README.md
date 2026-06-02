@@ -1,7 +1,6 @@
 ## Hi, I am Jeff, aka `@x0mg` or `atx0mg`
 
 > 🕓 **[View my journey as an interactive timeline →](https://jeff14994.github.io/jeff14994/)**
-> _(A static, dependency-free site lives in this repo — enable GitHub Pages on the `main` branch, root folder, to publish it.)_
 
 Graduated Computer Science Student @[Arizona State University](https://www.asu.edu/)
 
